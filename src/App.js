@@ -4,7 +4,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { fetchUser } from "./api/user";
 import PublicRoute from "./components/PublicRoute";
-import PrivateRoute from "./components/PrivateRoute";
+//import PrivateRoute from "./components/PrivateRoute";
 import ChangePassword from "./pages/auth/ChangePassword";
 import Forgot from "./pages/auth/Forgot";
 import Login from "./pages/auth/Login";
