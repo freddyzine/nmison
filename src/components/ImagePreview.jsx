@@ -1,12 +1,12 @@
-import { CircularProgress, IconButton, Tooltip } from "@mui/material";
+import { /*CircularProgress,*/ IconButton, Tooltip } from "@mui/material";
 import React from "react";
 //import { BsDownload } from "react-icons/bs";
 import { GrDocumentText } from "react-icons/gr";
 import DownloadIcon from '@mui/icons-material/Download';
-import DeleteIcon from '@mui/icons-material/Delete';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import UnpublishedIcon from '@mui/icons-material/Unpublished';
-import { useState } from "react";
+//import DeleteIcon from '@mui/icons-material/Delete';
+//import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+//import UnpublishedIcon from '@mui/icons-material/Unpublished';
+//import { useState } from "react";
 
 const ImagePreview = ({ item, onDelete }) => {
   const [loading, setLoading] = useState({
@@ -19,7 +19,7 @@ const ImagePreview = ({ item, onDelete }) => {
       </div>
       <div className="flex justify-end py-1 px-3 bg-primary cursor-pointer w-full">
  
-        <a href={item?.url} target="_blank" className="">
+        <a href={item?.url} target="_blank" rel="noreferrer" className="">
           <Tooltip title="Download">
             <IconButton size="small">
               <DownloadIcon fontSize="small" sx={{ color: "white" }} />
