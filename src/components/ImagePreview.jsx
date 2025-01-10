@@ -9,9 +9,9 @@ import DownloadIcon from '@mui/icons-material/Download';
 //import { useState } from "react";
 
 const ImagePreview = ({ item, onDelete }) => {
-  const [loading, setLoading] = useState({
+ /* const [loading, setLoading] = useState({
     del: false
-  })
+  })*/
   return (
     <div className="col-span-2 lg:col-span-1 rounded-lg overflow-hidden">
       <div className="bg-white h-[130px] flex justify-center items-center">
