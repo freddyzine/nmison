@@ -63,12 +63,12 @@ const DemandNote = () => {
           ))}
         </div>
         <div className="w-full md:w-[60%] mx-auto mt-14">
-	  {/* Removed the Comment here to line 71 */  <RemitaPayment 
+	  {/* Removed the Comment here to line 71 <RemitaPayment 
             remitaData={data}
             className="px-7 py-3 bg-primary text-white rounded-md text-sm w-full my-10"
             text="Proceed to payment with Remita"
             // add a 'live' prop to use the live urls/keys
-          />}
+          />*/}
         </div>
       </div>
     </DashboardLayout>
