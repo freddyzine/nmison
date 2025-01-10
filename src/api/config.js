@@ -1,0 +1,1 @@
+export const BASE_URL = "https://api.nmienugu.com/api/v1"
