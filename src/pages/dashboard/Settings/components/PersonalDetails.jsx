@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 import { editUser, fetchUser } from "../../../../api/user";
 import { ContainedButton } from "../../../../components/Button";
 import TextInput from "../../../../components/TextInput";
-import { validateName, validatePhone } from "../../../../helpers/validation";
+//import { validateName, validatePhone } from "../../../../helpers/validation";
 import { userStore } from "../../../../store/userStore";
 
 const PersonalDetails = observer(() => {
