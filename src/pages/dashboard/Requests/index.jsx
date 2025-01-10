@@ -29,6 +29,7 @@ const Request = () => {
   };
   useEffect(() => {
     getUserRequests();
+    // eslint-disable-next-line
   }, [page]);
   return (
     <DashboardLayout>
