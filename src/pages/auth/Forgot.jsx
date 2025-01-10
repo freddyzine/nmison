@@ -15,7 +15,7 @@ const Forgot = () => {
 
   const send = async () => {
     setLoading(true);
-    const { data, error, message } = await sendOtp(JSON.stringify({email}));
+    const { /*data,*/ error, message } = await sendOtp(JSON.stringify({email}));
     setLoading(false);
     if (error) {
       toast.error(message);
