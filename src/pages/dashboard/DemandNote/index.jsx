@@ -23,7 +23,7 @@ const DemandNote = () => {
     amount: 5000,
     narration: "this is a short narration",
   });
-
+// eslint-disable-next-line
   let data = {
     ...paymentData,
     onSuccess: function (response) {
