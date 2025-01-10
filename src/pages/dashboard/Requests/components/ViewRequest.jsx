@@ -5,7 +5,7 @@ import {
     DialogContent, CircularProgress, 
     ListItemText, Grid, DialogActions,
     Button, 
-    Link
+    /*Link*/
 } from '@mui/material';
 import React from 'react';
 import CloseIcon from '@mui/icons-material/Close';
@@ -42,7 +42,8 @@ export const ViewRequest = ({open, close, data=null}) => {
           if(err?.error) toast.error(err?.message)
           setLoading(state => ({...state, view: false}))
       })
-  }, [])
+      
+  }, [data?._id])
 
   const attributes = [
     {
