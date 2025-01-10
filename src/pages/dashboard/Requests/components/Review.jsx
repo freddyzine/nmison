@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { makeReview } from "../../../../api/requests";
-import { Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Rating, TextField, Typography } from "@mui/material";
-import TextInput from "../../../../components/TextInput";
+import { Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Rating, TextField, /*Typography*/ } from "@mui/material";
+//import TextInput from "../../../../components/TextInput";
 import { LoadingButton } from "@mui/lab";
 import { toast } from "react-toastify"
 
