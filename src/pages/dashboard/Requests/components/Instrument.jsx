@@ -11,7 +11,7 @@ import { Box, Button, Fade, Icon, IconButton, Modal, TextField, Typography } fro
 
 export function Instrument({ instruments }){
   const ins = JSON.parse(instruments)
-  const [open, setOpen] = useState(false)
+// const [open, setOpen] = useState(false)
   // function addIns(data){
   //   setInstruments(s => [...s, data])
   // }
@@ -54,7 +54,7 @@ export function Instrument({ instruments }){
     </div>
   )
 }
-
+// eslint-disable-next-line
 function Form({ open, handleClose, handleSubmit}){
   const init = {
     name: "", model: "", make: "",
