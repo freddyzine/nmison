@@ -59,7 +59,7 @@ const Footer = () => {
                 <Link to={"/#services"}>Terms</Link>
               </li>
               <li className="py-1 font-medium font-poppins">
-                <a href="https://www.office.nmienugu.com" target="_blank">Office</a>
+                <a href="https://www.office.nmienugu.com" target="_blank" rel="noreferrer">Office</a>
               </li>
             </ul>
           </div>
